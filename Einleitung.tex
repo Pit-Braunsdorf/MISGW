@@ -1,24 +1,34 @@
 \documentclass[12pt,a4paper]{scrreprt}
+\usepackage[ngerman]{babel}
 \usepackage[latin1]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{acronym}
-\usepackage{hyperref}
+\usepackage[pdfborder={0 0 0}]{hyperref}
 \author{Pit Braunsdorf}
+
 \begin{document}
 	\chapter{Einleitung}
+	\label{ch:einleitung}
 	\section{Gegenstand und Motivation}
+	\label{sec:gegenstand_und_motivation}
 	\subsection{Gegenstand}
+	\label{subsec:gegenstand}
 		In der Architektur und dem Management von Informationssystem im Gesundheitswesen werden bestimmte Begriffe regelmäßig verwendet, teilweise auch mit einer anderen Definition als üblich. Um das Verstehen der Begrifflichkeit und deren Zusammenhänge zu vereinfachen, wurde eine Ontologie erstellt, welche diese sowohl visuell als auch schematisch darstellt. Diese Ontologie wird \ac{SNIK} genannt. 
 		Der Umfang von \ac{SNIK} beruht auf verschiedenen Büchern, die jeweils eingelesen wurden. Eines dieser Bücher wird als Lehrbuch für die Module Architektur bzw. Management von Informationssystemen im Gesundheitswesen verwendet. Daher wird außerdem \ac{SNIK} verwendet, um eine Übersicht zu bieten, in wie weit diese Begriffe zu einander in Beziehungen stehen.
 		%TODO Üblich ist doof
 	\subsection{Problematik}
-		Wie bereits erwähnt ist \ac{SNIK} eine sehr umfangreiche Ontologie, so dass eine übersichtliche Visualisierung nur schwierig machbar ist. Daher soll im Zuge dieser Arbeit eine Analyse der bereits vorhandenen Visualisierung von \ac{SNIK} (einsehbar unter: \href{ www.snik.eu/graph}{www.snik.eu/graph}). Die Analyse soll anhand des Papers ...
+	\label{subsec:problematik}
+		Ontologien sind Verknüpfungen von Begriffen mit verschiedenen Beziehungen. Diese Begriffe und Beziehungen werden oftmals visuell und schematisch dargestellt. Da sehr umfangreiche Ontologien relativ schwer visuell dargestellt werden können, weil diese aufgrund der viel Zahl von Begriffen und Beziehungen sehr unübersichtlich und komplex werden können. Diese unübersichtliche Form kann anhand verschiedener Grundsätze, die in dem Paper \glqq Affective Graphs: The Visual Appeal of Linked Data\grqq{} von Garcia et al. dargestellt werden, teilweise überarbeitet werden.
 	\subsection{Motivation}
-		Durch die Verwendung von Ontologien in der Lehre ist es notwendig, dass diese sinnvoll strukturiert und visuell dargestellt werden können. 
+	\label{subsec:motivation}
+		Anhand dieser Grundsätze kann eine Vereinfachung der Visualisierung für die Lehre und für andere Verwendungen wie beispielsweise Kommunikation mit dem Universitätsklinikum Leipzig erfolgen. Dadurch kann die Ontologie leichter verwendet werden, um bestimmte Definitionen zu lernen bzw. um mit anderen auf Basis von diesen Definitionen zu kommunizieren. Dadurch wird es ermöglicht, dass man einen gemeinsamen Wortschatz für die Kommunikation verwendet. Außerdem wird dadurch erreicht, dass verschiedene Anwendungen ebenfalls diese Ontologie verwenden können, wodurch eine einfachere Kommunikation zwischen Anwendungen und zwischen der Anwendung und einem Anwender sicher gestellt wird.
 		
+	\section{Problemstellung}
+	\label{subsec:problemstellung}	
+		Wie bereits erwähnt ist \ac{SNIK} eine sehr umfangreiche Ontologie, so dass eine übersichtliche Visualisierung nur schwierig machbar ist. Daher soll im Zuge dieser Arbeit eine Analyse der bereits vorhandenen Visualisierung von \ac{SNIK} (einsehbar unter: \href{ www.snik.eu/graph}{www.snik.eu/graph}) durchgeführt werden. Die Analyse soll anhand der Grundsätze für Visualisierungen von Linked Data mit Semantic Web durchgeführt werden. Diese Grundsätze werden dem bereits genannten Paper entnommen. 
 	
 	\begin{acronym}
 		\acro{SNIK}{Semantisches Netz des Informationsmanagments im Krankenhaus}
