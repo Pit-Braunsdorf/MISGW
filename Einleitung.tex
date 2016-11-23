@@ -1,22 +1,38 @@
 
-  	\chapter{Einleitung}
-	\label{ch:einleitung}
-	\section{Gegenstand und Motivation}
-	\label{sec:gegenstand_und_motivation}
-	\subsection{Gegenstand}
-	\label{subsec:gegenstand}
-		In der Architektur und dem Management von Informationssystem im Gesundheitswesen werden bestimmte Begriffe regelmäßig verwendet. Teilweise auch mit anderen Definitionen als in einem Lexika. Um das Verstehen der Begrifflichkeit und deren Zusammenhänge zu vereinfachen, wurde eine Ontologie erstellt, welche diese sowohl visuell als auch schematisch darstellt. Diese wird \ac{SNIK} genannt. 
-		Der Umfang von \ac{SNIK} beruht auf verschiedenen Büchern, die für die Ontologie bearbeitet wurden. Eines dieser Bücher wird als Lehrbuch für die zwei Module Architektur bzw. Management von Informationssystemen im Gesundheitswesen, welche am \ac{IMISE} angeboten werden, verwendet. Daher wird \ac{SNIK} außerdem herangezogen, um eine Übersicht zu bieten, in wie weit diese Begriffe zu einander in Beziehung stehen. Diese Übersicht ist bei \ac{SNIK} visuell dargestellt. Die Visualisierung ist \href{http://www.snik.eu/graph}{hier} einsehbar. 
-		
-	\subsection{Problematik}
-	\label{subsec:problematik}
-		Da die Ontologie von \ac{SNIK} sehr umfangreich ist, ist die Visualisierung von \ac{SNIK} unübersichtlich. Durch diese Unübersichtlichkeit stellt sich die Frage, ob diese Visualisierung von \ac{SNIK} ihr Ziel erfüllt. Das Ziel ist eine Unterstützung von Studenten und Dozenten in der Lehre am \ac{IMISE} und eine vereinfachte Kommunikation. Dies kann anhand der Grundsätze, die im Paper \glqq Affective Graphs: The Visual Appeal of Linked Data\grqq{} von Garcia et al. dargestellt werden, überprüft und analysiert werden.
-	\subsection{Motivation}
-	\label{subsec:motivation}
-		Anhand dieser Grundsätze kann notfalls eine Vereinfachung der Visualisierung für die Lehre am \ac{IMISE} und für andere Verwendungen wie beispielsweise Kommunikation mit dem Universitätsklinikum Leipzig erfolgen. Aus diesem Grund kann die Ontologie verwendet werden, um bestimmte Definitionen zu lernen bzw. um mit anderen auf Basis von diesen Definitionen zu kommunizieren. Dadurch wird ein gemeinsamen Wortschatz für die Kommunikation ermöglicht. Außerdem wird erreicht, dass verschiedene Anwendungen auf diese Ontologie zurückgreifen können. Dadurch unkompliziertere Kommunikation zwischen Anwendungen und zwischen der Anwendung und einem Anwender sicher gestellt wird.
-		
-	\section{Problemstellung}
-	\label{subsec:problemstellung}
-		Die bereits im Kapitel \ref{subsec:problematik} angesprochene Problematik soll im Zuge dieser Arbeit analysiert werden. Dabei sollen Schwachstellen identifiziert und analysiert werden. Eine Analyse der Schwachstellen soll sowohl eine Einschätzung des Schweregrades als auch eine Aufwandsschätzung für die Behebung beinhalten. 
-		
-		Dabei sollen zunächst die notwendigen Grundlagen erläutert und anschließend eine Evaluation der vorhandenen \ac{SNIK}-Ontologievisualisierung durchgeführt werden. Abschließend soll noch dargestellt werden, wie weiter mit der Problematik vorgegangen werden kann.
+\chapter{Einleitung}
+\label{ch:einleitung}
+\section{Gegenstand und Motivation}
+\label{sec:gegenstand_und_motivation}
+\subsection{Gegenstand}\todo{Der Gegenstand ist zu schwammig beschrieben. Für die SNIK-Ontologie bitte mal die Publikationen unter \url{http://www.snik.eu/de/Publikationen/index.jsp} durchsehen und die Relevanten zitieren.}
+\label{subsec:gegenstand}
+In der Architektur und dem Management von Informationssystem im Gesundheitswesen werden bestimmte Begriffe regelmäßig verwendet. Teilweise auch mit anderen Definitionen als in einem Lexika.\todo{Lexika ist Plural} Um das Verstehen der Begrifflichkeit und deren Zusammenhänge zu vereinfachen\todo{Ontologie hat noch andere Ziele und Einsatzzwecke, z.B. maschinelle Verarbeitbarkeit, Abfrage über SPARQL Queries}, wurde eine Ontologie erstellt, welche diese sowohl visuell als auch schematisch darstellt\todo{die Ontologie selbst stellt nichts visuell dar, das macht die Visualisierung der Ontologie}.
+Diese wird \ac{SNIK} genannt.
+
+Der Umfang von \ac{SNIK} beruht auf verschiedenen Büchern, die für die Ontologie bearbeitet wurden.
+Eines dieser Bücher wird als Lehrbuch für die zwei Module Architektur bzw. Management von Informationssystemen im Gesundheitswesen, welche am \ac{IMISE} angeboten werden, verwendet.
+Daher wird \ac{SNIK} außerdem herangezogen, um eine Übersicht zu bieten, in wie weit diese Begriffe zu einander in Beziehung stehen.
+Diese Übersicht ist bei \ac{SNIK} visuell dargestellt.
+Die Visualisierung ist \href{http://www.snik.eu/graph}{hier} einsehbar.\todo{Die Visualisierung sollte schon etwas umfangreicher beschrieben werden, schließlich ist sie ja der eigentliche Gegenstand, nicht die Ontologie.}
+
+\subsection{Problematik}\todo{Das ist noch zu schwammig. Eine umfangreiche Datenmenge führt auch nicht zwangsweise zu einer unübersichtlichen Visualisierung. Google Maps ist ja auch übersichtlich, obwohl extrem viele Daten vorhanden sind.}
+\label{subsec:problematik}
+Da die Ontologie von \ac{SNIK} sehr umfangreich ist, ist die Visualisierung von \ac{SNIK} unübersichtlich.
+Durch diese Unübersichtlichkeit stellt sich die Frage, ob diese Visualisierung von \ac{SNIK} ihr Ziel erfüllt.
+Das Ziel ist eine Unterstützung von Studenten und Dozenten in der Lehre am \ac{IMISE} und eine vereinfachte Kommunikation\todo{Kommunikation von wem mit wem?}.
+Dies kann anhand der Grundsätze, die im Paper \glqq Affective Graphs: The Visual Appeal of Linked Data\grqq{} von Garcia et al. dargestellt werden, überprüft und analysiert werden.
+\subsection{Motivation}\todo{So richtig reißt mich die Motivation noch nicht mit. Der Leser muss hier überzeugt werden, wie wahnsinning wichtig das Thema ist, unterlegt mit belegten Zahlen.}
+\label{subsec:motivation}
+Anhand dieser Grundsätze kann notfalls eine Vereinfachung der Visualisierung für die Lehre am \ac{IMISE} und für andere Verwendungen wie beispielsweise Kommunikation mit dem Universitätsklinikum Leipzig erfolgen.
+Aus diesem Grund kann die Ontologie verwendet werden, um bestimmte Definitionen zu lernen bzw. um mit anderen auf Basis von diesen Definitionen zu kommunizieren.
+Dadurch wird ein gemeinsamen Wortschatz für die Kommunikation ermöglicht.
+Außerdem wird erreicht, dass verschiedene Anwendungen auf diese Ontologie zurückgreifen können.
+Dadurch unkompliziertere Kommunikation zwischen Anwendungen und zwischen der Anwendung und einem Anwender sicher gestellt wird.
+
+\section{Problemstellung}\todo{An Methodik im Paper orientieren.}
+\label{subsec:problemstellung}
+Die bereits im Kapitel \ref{subsec:problematik} angesprochene Problematik soll im Zuge dieser Arbeit analysiert werden.
+Dabei sollen Schwachstellen identifiziert und analysiert werden.\todo{Die Einleitung wird in diesem Seminar zwar vorher geschrieben, ist am Ende aber trotzdem Teil des finalen Dokuments und kein historischer Arbeitsplan oder etwas Ähnliches. Daher nicht im Stil \enquote{es soll dies und das gemacht werden} schreiben sondern auf den Rest der Arbeit verweisen, als würde er schon existieren. Also: \enquote{Kapitel X analysiert Schwachstellen anhand der Methodik von Y}}
+Eine Analyse der Schwachstellen soll sowohl eine Einschätzung des Schweregrades als auch eine Aufwandsschätzung für die Behebung beinhalten.
+
+Dabei sollen zunächst die notwendigen Grundlagen erläutert und anschließend eine Evaluation der vorhandenen \ac{SNIK}-Ontologievisualisierung durchgeführt werden.
+Abschließend soll noch dargestellt werden, wie weiter mit der Problematik vorgegangen werden kann.
