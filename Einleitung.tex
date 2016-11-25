@@ -5,34 +5,45 @@
 \label{sec:gegenstand_und_motivation}
 \subsection{Gegenstand}\todo{Der Gegenstand ist zu schwammig beschrieben. Für die SNIK-Ontologie bitte mal die Publikationen unter \url{http://www.snik.eu/de/Publikationen/index.jsp} durchsehen und die Relevanten zitieren.}
 \label{subsec:gegenstand}
-In der Architektur und dem Management von Informationssystem im Gesundheitswesen werden bestimmte Begriffe regelmäßig verwendet. Teilweise auch mit anderen Definitionen als in einem Lexika.\todo{Lexika ist Plural} Um das Verstehen der Begrifflichkeit und deren Zusammenhänge zu vereinfachen\todo{Ontologie hat noch andere Ziele und Einsatzzwecke, z.B. maschinelle Verarbeitbarkeit, Abfrage über SPARQL Queries}, wurde eine Ontologie erstellt, welche diese sowohl visuell als auch schematisch darstellt\todo{die Ontologie selbst stellt nichts visuell dar, das macht die Visualisierung der Ontologie}.
-Diese wird \ac{SNIK} genannt.
+In der Architektur und dem Management von Informationssystem im Gesundheitswesen werden bestimmte Begriffe regelmäßig verwendet. Teilweise auch mit anderen Definitionen als in einem Lexikum.
+Um das Verstehen der Begrifflichkeit und deren Zusammenhänge zu vereinfachen, sowie die Möglichkeit zu erschaffen, dass diese Daten maschinell verarbeitet und mittels \ac{SPARQL} abgefragt werden können, wurde eine Ontologie erstellt. Diese wird \ac{SNIK} genannt.
 
 Der Umfang von \ac{SNIK} beruht auf verschiedenen Büchern, die für die Ontologie bearbeitet wurden.
 Eines dieser Bücher wird als Lehrbuch für die zwei Module Architektur bzw. Management von Informationssystemen im Gesundheitswesen, welche am \ac{IMISE} angeboten werden, verwendet.
 Daher wird \ac{SNIK} außerdem herangezogen, um eine Übersicht zu bieten, in wie weit diese Begriffe zu einander in Beziehung stehen.
 Diese Übersicht ist bei \ac{SNIK} visuell dargestellt.
-Die Visualisierung ist \href{http://www.snik.eu/graph}{hier} einsehbar.\todo{Die Visualisierung sollte schon etwas umfangreicher beschrieben werden, schließlich ist sie ja der eigentliche Gegenstand, nicht die Ontologie.}
+Die Visualisierung ist \href{http://www.snik.eu/graph}{hier} einsehbar.
+Diese dient zur Unterstützung von Studierenden und Dozenten, bei der Erlangung des fachspezifischen Wortschatzes.
+Außerdem kann die Visualisierung verwendet werden, um Daten mittels \ac{SPARQL} abgefragt werden.
+Dies unterstützt wiederum die Studierenden beim Lernen des fachspezifischen Wortschatzes, da dadurch spezielle, noch unbekannte, Worte gefunden werden können und die Definition der Worte erlernt werden kann.(vgl. \cite{Schaaf.})
 
-\subsection{Problematik}\todo{Das ist noch zu schwammig. Eine umfangreiche Datenmenge führt auch nicht zwangsweise zu einer unübersichtlichen Visualisierung. Google Maps ist ja auch übersichtlich, obwohl extrem viele Daten vorhanden sind.}
+\subsection{Problematik}
 \label{subsec:problematik}
-Da die Ontologie von \ac{SNIK} sehr umfangreich ist, ist die Visualisierung von \ac{SNIK} unübersichtlich.
+Die Visualisierung von \ac{SNIK} beruht auf einer graphischen Darstellung der Begriffe und deren Beziehungen. 
+Durch die Vielzahl von Begriffen und Beziehungen ist diese graphische Darstellung sehr unübersichtlich.
 Durch diese Unübersichtlichkeit stellt sich die Frage, ob diese Visualisierung von \ac{SNIK} ihr Ziel erfüllt.
-Das Ziel ist eine Unterstützung von Studenten und Dozenten in der Lehre am \ac{IMISE} und eine vereinfachte Kommunikation\todo{Kommunikation von wem mit wem?}.
+Das Ziel ist eine Unterstützung von Studenten und Dozenten in der Lehre am \ac{IMISE} und eine vereinfachte Kommunikation zwischen Anwendungen und Anwendern bzw. zwischen Informationstechnikern.
 Dies kann anhand der Grundsätze, die im Paper \glqq Affective Graphs: The Visual Appeal of Linked Data\grqq{} von Garcia et al. dargestellt werden, überprüft und analysiert werden.
-\subsection{Motivation}\todo{So richtig reißt mich die Motivation noch nicht mit. Der Leser muss hier überzeugt werden, wie wahnsinning wichtig das Thema ist, unterlegt mit belegten Zahlen.}
+
+\subsection{Motivation}
 \label{subsec:motivation}
-Anhand dieser Grundsätze kann notfalls eine Vereinfachung der Visualisierung für die Lehre am \ac{IMISE} und für andere Verwendungen wie beispielsweise Kommunikation mit dem Universitätsklinikum Leipzig erfolgen.
-Aus diesem Grund kann die Ontologie verwendet werden, um bestimmte Definitionen zu lernen bzw. um mit anderen auf Basis von diesen Definitionen zu kommunizieren.
-Dadurch wird ein gemeinsamen Wortschatz für die Kommunikation ermöglicht.
-Außerdem wird erreicht, dass verschiedene Anwendungen auf diese Ontologie zurückgreifen können.
-Dadurch unkompliziertere Kommunikation zwischen Anwendungen und zwischen der Anwendung und einem Anwender sicher gestellt wird.
+Die Qualität von Linked Data ergibt sich aus der Verwendbarkeit für Menschen und Maschinen (vgl. \cite{Garcia.}). 
+Durch die bereits erwähnte Unübersichtlichkeit ist es fragwürdig, ob die Verwendbarkeit von der Visualisierung von \ac{SNIK} für Menschen leicht verständlich und einfach ist. 
+Dadurch wird die Qualität von \ac{SNIK} verringert. 
+Damit die Verwendbarkeit von \ac{SNIK} für Menschen und Maschinen, damit auch dessen Qualität, verbessert werden kann, müssen Schwachstellen identifiziert werden.
+Die Identifizierung von Schwachstellen kann anhand der Grundsätze aus dem Paper \cite{gutefrage.de} durchgeführt werden. 
+Sind die Schwachstellen erst identifiziert, können diese auch behoben werden. 
+
+Als Ergebnis der Verbesserung der Qualität ist eine Verbesserung der Visualisierung von \ac{SNIK} zu erwarten, wo durch eine einfachere Kommunikation durch einen gemeinsamen Wortschatz möglich wird.
+Dieser gemeinsame Wortschatz kann durch die Verbesserung der Visualisierung leichter erlernt werden.
+Dadurch dass auch Maschinen auf diese Ontologie zugreifen können, kann durch eine Verbesserung der Qualität auch eine unkompliziertere Kommunikation zwischen Anwendungen und Anwendern sicher gestellt werden.
 
 \section{Problemstellung}\todo{An Methodik im Paper orientieren.}
 \label{subsec:problemstellung}
 Die bereits im Kapitel \ref{subsec:problematik} angesprochene Problematik soll im Zuge dieser Arbeit analysiert werden.
-Dabei sollen Schwachstellen identifiziert und analysiert werden.\todo{Die Einleitung wird in diesem Seminar zwar vorher geschrieben, ist am Ende aber trotzdem Teil des finalen Dokuments und kein historischer Arbeitsplan oder etwas Ähnliches. Daher nicht im Stil \enquote{es soll dies und das gemacht werden} schreiben sondern auf den Rest der Arbeit verweisen, als würde er schon existieren. Also: \enquote{Kapitel X analysiert Schwachstellen anhand der Methodik von Y}}
-Eine Analyse der Schwachstellen soll sowohl eine Einschätzung des Schweregrades als auch eine Aufwandsschätzung für die Behebung beinhalten.
+Dabei werden Schwachstellen identifiziert und analysiert.
+Eine Analyse der Schwachstellen beinhaltet sowohl eine Einschätzung des Schweregrades als auch eine Aufwandsschätzung für die Behebung.
 
-Dabei sollen zunächst die notwendigen Grundlagen erläutert und anschließend eine Evaluation der vorhandenen \ac{SNIK}-Ontologievisualisierung durchgeführt werden.
-Abschließend soll noch dargestellt werden, wie weiter mit der Problematik vorgegangen werden kann.
+Dabei werden zunächst in Kapitel \ref{ch:basics} die notwendigen Grundlagen erläutert.
+Im nachfolgenden Kapitel \ref{ch:evaluation} wird die Evaluation der vorhandenen \ac{SNIK}-Ontologievisualisierung anhand des Papers \cite{Garcia.} durchgeführt.
+Im abschließenden Kapitel \ref{ch:future} wird die Arbeit zusammengefasst und beschrieben, wie im Anschluss dieser Arbeit mit der Visualisierung von \ac{SNIK} umgegangen werden kann.
