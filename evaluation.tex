@@ -1,2 +1,35 @@
 \chapter{Evaluation der Visualisierung von SNIK}
 \label{ch:evaluation}
+
+%Codierung anhand des Papers [3]
+%0.0 => schlecht 
+%1.0 => gut
+
+%Gut: 
+%-unterschiedliche Farben für unterschiedliche Objekte | 0.9 %TODO Welche Farbe bedeutet was?
+%-unterschiedliche Größen bei Objekten | 0.8 %TODO vielleicht genauer erklären
+%-Drag and Drop von Knoten => einfache Möglichkeit sich die Übersicht selbst anzuordnen | 0.9
+%-SPARQL an sich vorhanden | 0.7
+
+%Negativ: 
+%-keine farbliche Kennzeichnung für Beziehung                | 0
+%-keine erkennbarkeit in welche Richtung die Beziehung gehen | 0
+%-keine andere Darstellung von hierarchischen Beziehungen    | 0.2
+%-keine Möglichkeit die Abfrage zu verfeinern mittels SparQL | 0.4
+%-kein sinnvolles Zooming                                    | 0.4
+
+%sonstiges:
+%	-fehler beim Hovering vom Menue
+%	-Menue Punkte klappen sich nicht wieder zu
+
+\section{Analyse des Aufbaus der Website}
+%TODO einfügen der aktuellen Darstellung
+Der aktuelle Aufbau ist relativ unübersichtlich und nicht sehr komfortabel, beispielsweise ist es nicht ersichtlich wie man die Definition der Objekte aufrufen kann. (Vermutung: Rechtsklick => Richtung Description Alternative: Doppelklick) Außerdem öffnet sich die Definition der Beschreibung in einem PopUp-Fenster, was viele Standardtechnisch unterdrücken. Als Alternative könnte man einen modalen Dialog vorsehen.	
+
+%TODO Einfügen einer Planskizze
+	
+\section{Analyse der Beziehungen zwischen Objekten}
+Die Darstellung der Beziehungen zwischen den Objekten ist vollständig gleich. Das heißt es existiert keine unterschiedliche Darstellung trotz unterschiedlicher Arten von Beziehungen. Beispielsweise könnte man die Darstellung von hierarchischen Beziehungen wie \glqq is A\grqq{} oder \glqq subclass of\grqq{} durch eine dreiecks-Linie darstellen.
+%TODO andere Bezeichnung für dreiecks-Linie 
+
+Andere Beziehungen zwischen zwei Objekten sollten farblich codiert werden, so dass man anhand der Farbe direkt auf den Typen der Beziehung zurückschließen kann. 

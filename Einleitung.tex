@@ -5,17 +5,22 @@
 \label{sec:gegenstand_und_motivation}
 \subsection{Gegenstand}
 \label{subsec:gegenstand}
-In der Architektur und dem Management von Informationssystem im Gesundheitswesen werden bestimmte Begriffe regelmäßig verwendet. Teilweise auch mit anderen Definitionen als in einem Lexikum.
+In der Architektur und dem Management von Informationssystem im Gesundheitswesen werden bestimmte Begriffe regelmäßig verwendet. Teilweise auch mit anderen Definitionen als in einem Lexikon.
 Um das Verstehen der Begrifflichkeit und deren Zusammenhänge zu vereinfachen, sowie die Möglichkeit zu erschaffen, dass diese Daten maschinell verarbeitet und mittels \ac{SPARQL} abgefragt werden können, wurde eine Ontologie erstellt. Diese wird \ac{SNIK} genannt.
 
 Der Umfang von \ac{SNIK} beruht auf verschiedenen Büchern, die für die Ontologie bearbeitet wurden.
 Eines dieser Bücher wird als Lehrbuch für die zwei Module Architektur bzw. Management von Informationssystemen im Gesundheitswesen, welche am \ac{IMISE} angeboten werden, verwendet.
 Daher wird \ac{SNIK} außerdem herangezogen, um eine Übersicht zu bieten, in wie weit diese Begriffe zu einander in Beziehung stehen.
-Diese Übersicht ist bei \ac{SNIK} visuell dargestellt.
-Die Visualisierung ist \href{http://www.snik.eu/graph}{hier} einsehbar.
+Die Visualisierung ist unter \href{http://www.snik.eu/graph} einsehbar.
 Diese dient zur Unterstützung von Studierenden und Dozenten, bei der Erlangung des fachspezifischen Wortschatzes. (vgl. \cite{VisualizationofLargeOntologiesinUniversityEducationfromaToolPointofView.September2016})
-Außerdem kann die Visualisierung verwendet werden, um Daten mittels \ac{SPARQL} abgefragt werden.
-Dies unterstützt wiederum die Studierenden beim Lernen des fachspezifischen Wortschatzes, da dadurch spezielle, noch unbekannte, Worte gefunden werden können und die Definition der Worte erlernt werden kann.(vgl. \cite{Schaaf.})
+Durch die Darstellung von Objekten und deren Beziehungen können unbekannte Worte gefunden und die Definition der Worte erlernt werden.(vgl. \cite{Schaaf.}) 
+
+Im zugrunde liegenden Paper von Garcia et al. (\cite{Garcia.}) werden Prinzipien dargestellt, anhand welcher Visualisierungen von Ontologien analysiert werden können. 
+Diese Prinzipien werden nach Linked Data Visualisierung und Node-Link Repräsentationen unterschieden. Beispielsweise wird für die Linked Data Visualisierung empfohlen auf ein minimales Design zu setzen, um eine visuelle Unordnung zu reduzieren. 
+Für die Node-Link Repräsentationen wird beispielsweise empfohlen, dass man das Überlappen und Kreuzen von Kanten verhindern sollte. (vgl. \cite[S. 6]{Garcia.})
+Außerdem analysieren Garcia et al. auf den Seiten 7ff. das Design der Visualisierung an sich und stellen auch eine Möglichkeit für ein vernünftiges Design dar. 
+Sie stellen im Verlauf ebenfalls eine sinnvolle Architektur für das Backend der zugrundeliegenden Anwendung vor, diese wird im Zuge dieser Arbeit nicht genauer betrachtet.
+
 
 \subsection{Problematik}
 \label{subsec:problematik}
@@ -27,16 +32,27 @@ Dies kann anhand der Grundsätze, die im Paper \glqq Affective Graphs: The Visual
 
 \subsection{Motivation}
 \label{subsec:motivation}
+%TODO bessere Anordnung finden
 Die Qualität von Linked Data ergibt sich aus der Verwendbarkeit für Menschen und Maschinen (vgl. \cite{Garcia.}). 
 Durch die bereits erwähnte Unübersichtlichkeit ist es fragwürdig, ob die Verwendbarkeit von der Visualisierung von \ac{SNIK} für Menschen leicht verständlich und einfach ist. 
 Dadurch wird die Qualität von \ac{SNIK} verringert. 
 Damit die Verwendbarkeit von \ac{SNIK} für Menschen und Maschinen, damit auch dessen Qualität, verbessert werden kann, müssen Schwachstellen identifiziert werden.
-Die Identifizierung von Schwachstellen kann anhand der Grundsätze aus dem Paper \cite{gutefrage.de} durchgeführt werden. 
+Die Identifizierung von Schwachstellen kann anhand der Grundsätze aus dem Paper \cite{Garcia.} durchgeführt werden. 
 Sind die Schwachstellen erst identifiziert, können diese auch behoben werden. 
 
 Als Ergebnis der Verbesserung der Qualität ist eine Verbesserung der Visualisierung von \ac{SNIK} zu erwarten, wo durch eine einfachere Kommunikation durch einen gemeinsamen Wortschatz möglich wird.
 Dieser gemeinsame Wortschatz kann durch die Verbesserung der Visualisierung leichter erlernt werden.
 Dadurch dass auch Maschinen auf diese Ontologie zugreifen können, kann durch eine Verbesserung der Qualität auch eine unkompliziertere Kommunikation zwischen Anwendungen und Anwendern sicher gestellt werden.
+
+%TODO Genauer überprüfen in welchem Kontext er das behauptet, zurzeit nur aus Garcia übernommen
+Laut Donald A. Norman lassen den Benutzer gut designte Produkte positiv und gut fühlen, wodurch sie empfänglicher für Neues bzw. zu Erlernendes werden. 
+Deshalb sollte die Visualisierung von \ac{SNIK} überarbeitet werden, um so den Benutzern das Erlernen von neuen Begriffen zu vereinfachen.(\cite[S. 1]{Garcia.}) 
+Traditionell werden Linked Data Schnittstellen für Leistung und Zuverlässigkeit entworfen, die Usability steht dabei meist im Hintergrund. 
+%Mit K. Höffner abklären ob dies stimmt
+Da dies wahrscheinlich auch bei der Visualisierung von \ac{SNIK} zunächst im Vordergrund stand, ist hier bei die Verwendbarkeit für Menschen vernachlässigt worden.
+
+%TODO Einleitung von Gracia genauer lesen
+
 
 \section{Problemstellung}
 \label{subsec:problemstellung}
