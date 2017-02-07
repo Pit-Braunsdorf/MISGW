@@ -3,7 +3,71 @@
 \section{Definition Ontologie}
 - Defintion suchen
 \section{SNIK}
-\section{Paper genauer vorstellen}
+In \ac{SNIK} wird zwischen Aufgaben(functions) und Objekttypen(entity type) unterschieden. 
+Die Objekttypen unterscheidet man zusätzlich noch in Passive Objekttypen(passive entity type), Rollen(roles) und Abteilungen(departments).
+Weiterhin wurde das Konzept der Aufgabe wie folgt spezialisiert:\cite{Schaaf.}
+\begin{itemize}
+	\item Unternehmensaufgabe
+	\begin{itemize}
+		\item Krankenhausaufgabe
+		\begin{itemize}
+			\item Aufgabe der Patientenversorgung
+			\item Aufgabe der Administration
+			\item Aufgabe des Informationsmanagements
+			\item Aufgabe der Managements
+			\item Aufgabe der Ausbildung und Forschung
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+Unter dem Konzept der passiven Objekttypen versteht man \glqq{}Informationsobjekte, die von Aufgaben für deren Erfüllung benötigt oder bearbeitet werden\grqq{}. 
+Die Einteilung von passiven Objekttypen orientiert sich dabei an der Spezialisierung der Aufgaben.
+Dies wurde so vorgenommen, um später Aussagen zu den Krankenhausaufgaben und deren Informationsobjekte treffen zu können.\cite{Schaaf.}
+\begin{itemize}
+	\item Unternehmensobjekttyp
+	\begin{itemize}
+		\item Krankenhausobjekttyp
+		\begin{itemize}
+			\item Objekttyp der Patientenversorgung
+			\item Objekttyp der Administration
+			\item Objekttyp des Informationsmanagments
+			\item Objekttyp der Managements
+			\item Objekttyp der Ausbildung und Forschung
+		\end{itemize}
+	\end{itemize}
+\end{itemize}\cite{Schaaf.}
+
+Bei Rollen und Abteilungen wird von aktiven Objekttypen gesprochen, da diese aktiv in Beziehung zu den passiven Objekttypen bzw. Aufgaben stehen.\cite{Schaaf.}
+
+Zu jedem Objekttyp können Annotationen hinterlegt werden. 
+Annontationen werden verwendet um Informationen zu den Objekttypen zu hinterlegen.\cite{Schaaf.}
+
+Zusätzlich zu den Konzepten sind auch Relationen definiert wurden, welche bei Bedarf erweitert werden können.\cite{Schaaf.}
+\section{Affective Graphs: The Visual Appeal of Linked Data}
+Nach Garcia et al ist das Ziel des eine Alternative aufzeigen wie man gut designte und ästhetische Linked-Data Produkte erstellen kann, ohne das ein Informationsverlust damit einhergeht.
+Dabei wird zu nächst das bisherige vorgestellt und in wie weit die Prinzipien, die im Laufe des Papers aufgestellt werden, auf Semantic Web-Produkte anwendbar sind.\cite[S. 2]{Garcia.}
+Diese Prinzipien für die Datenvisualisierung im Semantic Web:
+\begin{enumerate}
+	\item Hierarchie zwischen den Elementen müssen klar erkennbar sein.
+	\item Kindknoten sollten in unmittelbarer Nähe zu deren Elternknoten positioniert sein.
+	\item Semantisch zusammenhängende Knoten sollten gemeinsam positioniert werden.
+	\item Überschneidung und Überlappung von Kanten sollten vermieden werden.
+	\item Kommentare sind in der Nähe der dazugehörigen Knoten platziert werden.
+	\item Verzierungen, wie Labels und Icons, sind in der Nähe der dazugehörigen Knoten positioniert werden.
+	\item Einschränkungen beim Zeichnen des Graphen (bspw. Symmetrie, kompaktes Zeichnen) sollten beachtet werden.
+\end{enumerate}
+
+Anhand dieser Prinzipien für die Datenvisualisierung wurden die 19 abschließenden Prinzipien des Papers aufgestellt. 
+
+%TODO Bilder einfügen.
+
+Im Paper wird außerdem eine Methodik vorgestellt wie Probleme identifiziert und kategorisiert werden können. 
+Dabei wird jeder Punkt auf einer Skala von 0 bis 1 bewertet, dabei bedeutet 0 sehr schlecht und 1 sehr gut.
+Durch diese Skala von sehr schlecht bis sehr gut können Punkte aufgegriffen werden, welche bereits gut umgesetzt aber verbesserungswürdig sind. 
+Außerdem kann man anhand dieser Skala und einer regelmäßigen Neubewertung einen Verlauf erkennen und entsprechend reagieren.
+
+Mit der Darstellung einer möglichen Vorgehensweise anhand eines Beispiels ist dieses Paper sehr gut geeignet, um die Visualisierung von \ac{SNIK} zu verbessern. 
+
 
 -Vorstellung einer Methodik um Probleme zu identifizieren
 -Darstellung anhand eines Beispiels

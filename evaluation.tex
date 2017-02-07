@@ -21,10 +21,24 @@
 %sonstiges:
 %	-fehler beim Hovering vom Menue
 %	-Menue Punkte klappen sich nicht wieder zu
+\section{Allgemeine Analyse der Visualisierung}
+Zunächst soll die Visualisierung allgemein analysiert werden. 
+Dabei wird auf die Methodik, die im Paper \cite{Garcia.} vorgestellt wurde, zurückgegriffen. 
+Die Analyse ist in der Tabelle ..., dargestellt.
+
+\begin{tabular}[h]{|l|l|l|}
+	\hline
+	Beschreibung & Bewertung & Begründung \\
+	Unterschiedliche Knotentypen werden in unterschiedlichen Farben dargestellt & 0.9 & Die Farbkodierung übermittelt einfacher Informationen des Types (Aufgabe, Objekttyp). Dies entspricht den Prinzip 1 sowie Prinzip 6.)\\
+	Mittels Drag and Drop von Knoten kann man sich eine eigene Übersicht erstellen. & 0.9 & Dadurch können Begriffe, die für den aktuellen Sachverhalt benötigt werden individuell zusammengeführt werden. Dies entspricht dem Prinzip 9.\\
+	Durch einen Link in der Visualisierung kann man über SPARQL Abfragen generieren, man kann keine bereits erstellte Abfragen aus der Visualisierung genauer spezifizieren. & 0.4 & Die Spezifizierung von Abfragen wird vor allem von Experten benötigt, weswegen das Fehlen nicht so schwerwiegend ist. Dennoch sollte dies entsprechend Prinzip 9 umgesetzt werden. \\
+	Fehlende Kennzeichnung für Beziehungen, um entsprechende Beziehungen schnell erkennen zu können. & 0 & Analog zu der Farbkodierung bei Knotentypen sollten auch Beziehungen kodiert werden. Beispielsweise könnte die Kodierung durch unterschiedliche Darstellungen, Farben oder einem Label ermöglicht werden. Dies würde ebenfalls dem Prinzip 1 entsprechen. \\
+	Keine spezielle Darstellung von hierarchischen Beziehungen. & 0.2 &  \\
+\end{tabular}
 
 \section{Analyse des Aufbaus der Website}
 %TODO einfügen der aktuellen Darstellung
-Der aktuelle Aufbau ist relativ unübersichtlich und nicht sehr komfortabel, beispielsweise ist es nicht ersichtlich wie man die Definition der Objekte aufrufen kann. (Vermutung: Rechtsklick => Richtung Description Alternative: Doppelklick) Außerdem öffnet sich die Definition der Beschreibung in einem PopUp-Fenster, was viele Standardtechnisch unterdrücken. Als Alternative könnte man einen modalen Dialog vorsehen.	
+Der aktuelle Aufbau ist relativ unübersichtlich und nicht sehr komfortabel, beispielsweise ist es nicht ersichtlich wie man die Definition der Objekte aufrufen kann. Außerdem öffnet sich die Definition der Beschreibung in einem PopUp-Fenster, was viele Standardtechnisch unterdrücken. Als Alternative könnte man einen modalen Dialog vorsehen.	
 
 %TODO Einfügen einer Planskizze
 	
